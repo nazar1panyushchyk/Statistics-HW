@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.statistics {
+    background-color: rgb(47, 46, 46);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 120px;
+    height: 120px;
+}
+
+.stat-list {
+    display: flex;
+}
+
+.item:nth-child(1) {
+    background-color: rgb(91, 195, 216);
+}
+
+.item:nth-child(2) {
+    background-color: violet;
+}
+
+.item:nth-child(3) {
+    background-color: indianred;
+}
+
+.item:nth-child(4) {
+    background-color: rgb(29, 151, 176);
+}
+
+.percentage {
+    font-size: 25px;
+}
+
+h2 {
+    margin: 15px;
+}
